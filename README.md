@@ -192,6 +192,8 @@ Additionally, a video tutorial by [Mitch McCollum (finepointcgi)](https://github
 
 - Array selected_rows = **select_rows(** String table_name, String query_conditions, Array selected_columns **)**
 
+    If you don't pass a `selected_columns` argument, all rows will be selected.  
+
 - Boolean success = **update_rows(** String table_name, String query_conditions, Dictionary updated_row_dictionary **)**
 
     With the `updated_row_dictionary`-variable adhering to the same table schema & conditions as the `row_dictionary`-variable defined previously.
